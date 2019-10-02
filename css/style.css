@@ -1,4 +1,11 @@
-li {
-  display: inline-block;
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+ul {
+  /* usuniecie wypunktowania */
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
 /*# sourceMappingURL=style.css.map */
