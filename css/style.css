@@ -2,10 +2,28 @@
   box-sizing: border-box;
 }
 
+.container {
+  margin: auto;
+  max-width: 1200px;
+}
+
 ul {
   /* usuniecie wypunktowania */
   padding: 0;
   margin: 0;
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.bar {
+  text-align: center;
+  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */
