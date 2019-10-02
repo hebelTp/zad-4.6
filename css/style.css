@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-ul {
+.navbar .belka {
   /* usuniecie wypunktowania */
   padding: 0;
   margin: 0;
