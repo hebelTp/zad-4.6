@@ -5,6 +5,7 @@
 .container {
   margin: auto;
   max-width: 1200px;
+  height: 100%;
 }
 
 ul {
@@ -34,5 +35,18 @@ li {
 .bar {
   text-align: center;
   margin: auto;
+}
+
+.splash {
+  background-image: url(https://images.unsplash.com/3/www.madebyvadim.com.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1961&q=80);
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
+}
+
+.inner-splash {
+  text-align: center;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */
