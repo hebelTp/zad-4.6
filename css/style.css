@@ -14,8 +14,17 @@ ul {
   list-style-type: none;
 }
 
-a {
+.gold-logo {
+  font-size: 22px;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: bold;
+  color: #fbc531;
+}
+
+.bar a {
   text-decoration: none;
+  font-size: 12px;
+  color: #353b48;
 }
 
 li {

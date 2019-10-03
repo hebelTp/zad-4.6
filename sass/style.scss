@@ -1,6 +1,12 @@
 *, *::before, *::after {
     box-sizing: border-box;   
 }
+$font-text: 'Montserrat', sans-serif;
+$font-header: 'Source Sans Pro', sans-serif;
+$font-logo: 'Shadows Into Light', cursive;
+$color-main: #353b48;
+$color-light: #f5f6fa;
+$color-logo: #fbc531;
 .container {
     margin: auto;
     max-width: 1200px;
@@ -12,9 +18,16 @@ ul {                /* usuniecie wypunktowania */
     margin: 0;
     list-style-type: none;                           
 }
-
-a {
+.gold-logo {
+    font-size: 22px;
+    font-family: $font-logo;
+    font-weight: bold ;
+    color:$color-logo;
+}
+.bar a {
     text-decoration: none;
+    font-size: 12px;
+    color: $color-main;
 }
 
 li {
