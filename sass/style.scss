@@ -78,10 +78,9 @@ li {
     text-align: center;
     }
 
-.services .col, .portfolio .col {
+.services .col, .portfolio .col, .footer .col-4 {
     text-align: center;
-    padding: 10px 10px;
-
+    padding: 10px;
 }
 
 .services p, .portfolio p {
@@ -108,4 +107,18 @@ li {
 }
 .p-main, .p-golden {
     background: none;
+}
+
+.footer i{
+    font-size: 12px;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    background: $color-main;
+    color: #ffff;
+    border-radius: 25px;;
+    text-align: center;
+    }
+.footer-social {
+    margin: 10px 0 0 0;
 }
