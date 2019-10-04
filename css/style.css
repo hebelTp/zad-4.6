@@ -54,4 +54,14 @@ li {
   color: #f5f6fa;
   font-family: "Montserrat", sans-serif;
 }
+
+.services i {
+  width: 36px;
+  height: 38px;
+  line-height: 38px;
+  border: 1px solid #fbc531;
+  color: #fbc531;
+  border-radius: 50px;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
