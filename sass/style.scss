@@ -78,11 +78,34 @@ li {
     text-align: center;
     }
 
-.services .col {
+.services .col, .portfolio .col {
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 10px;
+
 }
 
-.services p {
+.services p, .portfolio p {
     font-family: $font-text;
+}
+
+.portfolio img {
+    width: 100%;
+    height: 65%;
+    object-fit: cover;
+    
+}
+.portfolio {
+    background: $color-light;
+    ;
+}
+.portfolio h3, p {
+    background: #ffff;
+    margin:0;
+    padding: 10px 0;
+} 
+.p-portfolio,  {
+    background: $color-light;
+}
+.p-main, .p-golden {
+    background: none;
 }
