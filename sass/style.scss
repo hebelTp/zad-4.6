@@ -1,6 +1,9 @@
 *, *::before, *::after {
     box-sizing: border-box;   
 }
+
+/* global */
+
 $font-text: 'Montserrat', sans-serif;
 $font-header: 'Source Sans Pro', sans-serif;
 $font-logo: 'Shadows Into Light', cursive;
@@ -8,13 +11,11 @@ $color-main: #353b48;
 $color-light: #f5f6fa;
 $color-logo: #fbc531;
 
-/* global */
-
 h2,h3 {
     font-family: $font-header;
 }
 
-ul {                /* usuniecie wypunktowania */
+ul {
     padding: 0;
     margin: 0;
     list-style-type: none;                           
@@ -24,7 +25,7 @@ ul {                /* usuniecie wypunktowania */
     font-size: 22px;
     font-family: $font-logo;
     font-weight: bold ;
-    color:$color-logo;
+    color: $color-logo;
 }
 
 .bar a {
@@ -60,15 +61,15 @@ li {
     font-family: $font-header;
     text-align: center;
 }
+
 .p-main {
-    
     color: $color-light;
     font-family: $font-text;
 }
 
 /* services */
 
-.services i{
+.services i {
     width: 36px;
     height: 38px;
     line-height: 38px;
@@ -91,25 +92,28 @@ li {
     width: 100%;
     height: 65%;
     object-fit: cover;
-    
 }
+
 .portfolio {
     background: $color-light;
-    ;
+
 }
+
 .portfolio h3, p {
     background: #ffff;
-    margin:0;
+    margin: 0;
     padding: 10px 0;
 } 
-.p-portfolio,  {
+
+.p-portfolio, {
     background: $color-light;
 }
+
 .p-main, .p-golden {
     background: none;
 }
 
-.footer i{
+.footer i {
     font-size: 12px;
     width: 22px;
     height: 22px;
@@ -119,6 +123,7 @@ li {
     border-radius: 25px;;
     text-align: center;
     }
+
 .footer-social {
     margin: 10px 0 0 0;
 }
