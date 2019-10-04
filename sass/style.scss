@@ -8,7 +8,11 @@ $color-main: #353b48;
 $color-light: #f5f6fa;
 $color-logo: #fbc531;
 
+/* global */
 
+h2,h3 {
+    font-family: $font-header;
+}
 
 ul {                /* usuniecie wypunktowania */
     padding: 0;
@@ -62,6 +66,8 @@ li {
     font-family: $font-text;
 }
 
+/* services */
+
 .services i{
     width: 36px;
     height: 38px;
@@ -70,7 +76,13 @@ li {
     color: $color-logo;
     border-radius: 50px;;
     text-align: center;
-    
-    
-   
+    }
+
+.services .col {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.services p {
+    font-family: $font-text;
 }

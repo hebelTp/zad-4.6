@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+/* global */
+h2, h3 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
 ul {
   /* usuniecie wypunktowania */
   padding: 0;
@@ -55,6 +60,7 @@ li {
   font-family: "Montserrat", sans-serif;
 }
 
+/* services */
 .services i {
   width: 36px;
   height: 38px;
@@ -63,5 +69,14 @@ li {
   color: #fbc531;
   border-radius: 50px;
   text-align: center;
+}
+
+.services .col {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.services p {
+  font-family: "Montserrat", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
