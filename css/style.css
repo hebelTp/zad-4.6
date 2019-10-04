@@ -71,7 +71,7 @@ li {
   text-align: center;
 }
 
-.services .col, .portfolio .col, .footer .col-4, .services .col-md, .portfolio .col-md {
+.services .col, .portfolio .col, .footer .col-4, .services .col-md, .portfolio .col-md, .footer .col-md {
   text-align: center;
   padding: 10px;
 }
