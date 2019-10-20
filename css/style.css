@@ -30,6 +30,7 @@ ul {
 
 li {
   display: inline-block;
+  padding-right: 30px;
 }
 
 .bar {
@@ -54,6 +55,7 @@ li {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   font-size: 25px;
+  white-space: nowrap;
 }
 
 .p-main {
@@ -121,5 +123,12 @@ li {
 
 .footer-social {
   margin: 10px 0 0 0;
+}
+
+@media (max-width: 767px) {
+  .inner-splash {
+    white-space: unset;
+    font-size: 15px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
