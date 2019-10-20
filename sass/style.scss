@@ -67,6 +67,23 @@ li {
     white-space: nowrap;
 }
 
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: $font-text;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    background:$color-logo;
+    border-color:$color-logo;
+    color:$color-light;
+    }
 .p-main {
     color: $color-light;
     font-family: $font-script;
