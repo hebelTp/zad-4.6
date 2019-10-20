@@ -11,6 +11,7 @@ $font-script:'Vollkorn', serif;
 $color-main: #353b48;
 $color-light: #f5f6fa;
 $color-logo: #fbc531;
+$color-grey: #636e72;
 
 h2,h3 {
     font-family: $font-header;
@@ -109,7 +110,8 @@ li {
 }
 
 .services p, .portfolio p {
-    font-family: $font-text;
+    font-family: $font-script;
+    color: $color-grey;
 }
 
 .portfolio img {

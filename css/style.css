@@ -99,7 +99,8 @@ li {
 }
 
 .services p, .portfolio p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Vollkorn", serif;
+  color: #636e72;
 }
 
 .portfolio img {
