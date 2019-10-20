@@ -4,7 +4,7 @@
 
 /* global */
 h2, h3 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 ul {
@@ -15,16 +15,17 @@ ul {
 
 .gold-logo {
   font-size: 22px;
-  font-family: "Shadows Into Light", cursive;
+  font-family: "Sevillana", cursive;
   font-weight: bold;
   color: #fbc531;
+  font-style: italic;
 }
 
 .bar a {
   text-decoration: none;
   font-size: 12px;
-  color: #fbc531;
-  font-family: "Source Sans Pro", sans-serif;
+  color: #f5f6fa;
+  font-family: "Montserrat", sans-serif;
 }
 
 li {
@@ -50,13 +51,15 @@ li {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #f5f6fa;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
+  font-size: 25px;
 }
 
 .p-main {
   color: #f5f6fa;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Vollkorn", serif;
+  font-size: 40px;
 }
 
 /* services */
@@ -102,6 +105,7 @@ li {
 
 .p-main, .p-golden {
   background: none;
+  text-align: center;
 }
 
 .footer i {
