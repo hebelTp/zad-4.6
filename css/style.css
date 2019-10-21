@@ -82,6 +82,10 @@ li {
   font-size: 40px;
 }
 
+section {
+  padding: 50px 0;
+}
+
 /* services */
 .services i {
   width: 36px;
