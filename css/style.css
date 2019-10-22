@@ -7,6 +7,10 @@ h2, h3 {
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  margin: 0px;
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -146,6 +150,11 @@ section {
 
 .footer-social {
   margin: 10px 0 0 0;
+}
+
+footer p {
+  font-family: "Montserrat", sans-serif;
+  color: #636e72;
 }
 
 @media (max-width: 767px) {
